@@ -2,8 +2,8 @@
   "rbnf": {
     "identity": {
       "version": {
-        "number": "$Revision: 11914 $",
-        "cldrVersion": "29"
+        "number": "$Revision: 12722 $",
+        "cldrVersion": "30"
       },
       "language": "hu"
     },
@@ -11,7 +11,7 @@
       "SpelloutRules": {
         "%spellout-numbering-year": {
           "-x": "mínusz >>;",
-          "x.x": "=#,###0.#=;",
+          "x.x": "=0.0=;",
           "0": "=%spellout-numbering=;",
           "1100/100": "<<­száz[­>>];",
           "10000": "=%spellout-numbering=;"

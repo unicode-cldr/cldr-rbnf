@@ -2,15 +2,15 @@
   "rbnf": {
     "identity": {
       "version": {
-        "number": "$Revision: 11986 $",
-        "cldrVersion": "29"
+        "number": "$Revision: 12722 $",
+        "cldrVersion": "30"
       },
       "language": "ru"
     },
     "rbnf": {
       "SpelloutRules": {
         "%spellout-numbering-year": {
-          "x.x": "=0.#=;",
+          "x.x": "=0.0=;",
           "0": "=%spellout-ordinal-masculine-genitive=;"
         },
         "%spellout-numbering": {

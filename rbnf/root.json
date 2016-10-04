@@ -2,8 +2,8 @@
   "rbnf": {
     "identity": {
       "version": {
-        "number": "$Revision: 11914 $",
-        "cldrVersion": "29"
+        "number": "$Revision: 12722 $",
+        "cldrVersion": "30"
       },
       "language": "root"
     },
@@ -280,7 +280,7 @@
           "2000000000000": "<<፼>%%ethiopic-p2>;",
           "10000000000000000": "፼>%%ethiopic-p3>;",
           "20000000000000000": "<<፼>%%ethiopic-p3>;",
-          "1000000000000000000": "=#,###0=;"
+          "1000000000000000000": "=#,##0=;"
         },
         "%georgian": {
           "-x": "−>>;",
@@ -680,7 +680,8 @@
       "SpelloutRules": {
         "%spellout-numbering-year": {
           "-x": "−>>;",
-          "0": "=#,###0.#=;"
+          "x.x": "=0.0=;",
+          "0": "=0=;"
         },
         "%spellout-numbering": {
           "-x": "−>>;",

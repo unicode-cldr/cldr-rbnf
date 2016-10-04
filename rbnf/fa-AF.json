@@ -2,8 +2,8 @@
   "rbnf": {
     "identity": {
       "version": {
-        "number": "$Revision: 11914 $",
-        "cldrVersion": "29"
+        "number": "$Revision: 12722 $",
+        "cldrVersion": "30"
       },
       "language": "fa",
       "territory": "AF"
@@ -11,7 +11,7 @@
     "rbnf": {
       "SpelloutRules": {
         "%spellout-numbering-year": {
-          "x.x": "=#,###0.#=;",
+          "x.x": "=0.0=;",
           "0": "=%spellout-numbering=;"
         },
         "%spellout-numbering": {

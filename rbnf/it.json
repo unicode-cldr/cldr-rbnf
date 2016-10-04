@@ -2,8 +2,8 @@
   "rbnf": {
     "identity": {
       "version": {
-        "number": "$Revision: 12323 $",
-        "cldrVersion": "29"
+        "number": "$Revision: 12722 $",
+        "cldrVersion": "30"
       },
       "language": "it"
     },
@@ -32,7 +32,7 @@
           "0": "&[last primary ignorable ] << ' ' << ',' << '-' << '­';"
         },
         "%spellout-numbering-year": {
-          "x.x": "=#,###0.#=;",
+          "x.x": "=0.0=;",
           "0": "=%spellout-numbering=;"
         },
         "%spellout-numbering": {
@@ -232,7 +232,7 @@
         "%spellout-ordinal-masculine": {
           "-x": "meno >>;",
           "x.x": "=#,##0.#=;",
-          "0": "zero;",
+          "0": "zeresimo;",
           "1": "primo;",
           "2": "secondo;",
           "3": "terzo;",
@@ -330,7 +330,7 @@
         "%spellout-ordinal-feminine": {
           "-x": "meno >>;",
           "x.x": "=#,##0.#=;",
-          "0": "zero;",
+          "0": "zeresima;",
           "1": "prima;",
           "2": "seconda;",
           "3": "terza;",

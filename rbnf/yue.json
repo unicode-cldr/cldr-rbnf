@@ -2,15 +2,15 @@
   "rbnf": {
     "identity": {
       "version": {
-        "number": "$Revision: 12322 $",
-        "cldrVersion": "29"
+        "number": "$Revision: 12722 $",
+        "cldrVersion": "30"
       },
       "language": "yue"
     },
     "rbnf": {
       "SpelloutRules": {
         "%spellout-numbering-year": {
-          "x.x": "=#,###0.#=;",
+          "x.x": "=0.0=;",
           "0": "=%spellout-numbering=;",
           "1000": "=%%spellout-numbering-year-digits=;",
           "10000": "=%spellout-numbering=;"
@@ -42,7 +42,7 @@
           "100000000": "<<億[>%%number5>];",
           "1000000000000": "<<兆[>%%number8>];",
           "10000000000000000": "<<京[>%%number13>];",
-          "1000000000000000000": "=#,###0=;"
+          "1000000000000000000": "=#,##0=;"
         },
         "%%number2": {
           "1": "零=%spellout-numbering=;",
@@ -102,7 +102,7 @@
           "100000000": "<%spellout-cardinal-financial<億[>%%financialnumber5>];",
           "1000000000000": "<%spellout-cardinal-financial<兆[>%%financialnumber8>];",
           "10000000000000000": "<%spellout-cardinal-financial<京[>%%financialnumber13>];",
-          "1000000000000000000": "=#,###0=;"
+          "1000000000000000000": "=#,##0=;"
         },
         "%%financialnumber2": {
           "1": "零=%spellout-cardinal-financial=;",
@@ -163,7 +163,7 @@
           "100000000": "<%spellout-numbering<億[>%%number5>];",
           "1000000000000": "<%spellout-numbering<兆[>%%number8>];",
           "10000000000000000": "<%spellout-numbering<京[>%%number13>];",
-          "1000000000000000000": "=#,###0=;"
+          "1000000000000000000": "=#,##0=;"
         },
         "%spellout-cardinal-alternate2": {
           "-x": "負>>;",
@@ -191,14 +191,14 @@
           "100000000": "<%spellout-numbering<億[>%%number5>];",
           "1000000000000": "<%spellout-numbering<兆[>%%number8>];",
           "10000000000000000": "<%spellout-numbering<京[>%%number13>];",
-          "1000000000000000000": "=#,###0=;"
+          "1000000000000000000": "=#,##0=;"
         },
         "%%cardinal-twenties": {
           "1": ";",
           "2": "二;"
         },
         "%spellout-ordinal": {
-          "x.x": "=#,###0.#=;",
+          "x.x": "=#,##0.#=;",
           "0": "第=%spellout-numbering=;"
         }
       }

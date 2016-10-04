@@ -2,8 +2,8 @@
   "rbnf": {
     "identity": {
       "version": {
-        "number": "$Revision: 11914 $",
-        "cldrVersion": "29"
+        "number": "$Revision: 12722 $",
+        "cldrVersion": "30"
       },
       "language": "ga"
     },
@@ -24,7 +24,7 @@
         },
         "%spellout-numbering-year": {
           "-x": "míneas >>;",
-          "x.x": "=#,##0.#=;",
+          "x.x": "=0.0=;",
           "0": "=%spellout-numbering=;",
           "1000/100": "<%%spellout-numbering-no-a< >%%2d-year>;",
           "10000": "=%spellout-numbering=;"

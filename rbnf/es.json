@@ -2,8 +2,8 @@
   "rbnf": {
     "identity": {
       "version": {
-        "number": "$Revision: 12154 $",
-        "cldrVersion": "29"
+        "number": "$Revision: 12733 $",
+        "cldrVersion": "30"
       },
       "language": "es"
     },
@@ -39,7 +39,7 @@
           "0": "&[last primary ignorable ] << ' ' << ',' << '-' << '­';"
         },
         "%spellout-numbering-year": {
-          "x.x": "=#,###0.#=;",
+          "x.x": "=0.0=;",
           "0": "=%spellout-numbering=;"
         },
         "%spellout-numbering": {
@@ -94,7 +94,7 @@
           "1000000": "un millón[ >>];",
           "2000000": "<%spellout-cardinal-masculine< millones[ >>];",
           "1000000000000": "un billón[ >>];",
-          "2000000000000": "<%spellout-cardinal-masculine< billiones[ >>];",
+          "2000000000000": "<%spellout-cardinal-masculine< billones[ >>];",
           "1000000000000000000": "=#,##0=;"
         },
         "%spellout-cardinal-masculine": {
@@ -128,7 +128,7 @@
           "1000000": "un millón[ >>];",
           "2000000": "<%spellout-cardinal-masculine< millones[ >>];",
           "1000000000000": "un billón[ >>];",
-          "2000000000000": "<%spellout-cardinal-masculine< billiones[ >>];",
+          "2000000000000": "<%spellout-cardinal-masculine< billones[ >>];",
           "1000000000000000000": "=#,##0=;"
         },
         "%spellout-cardinal-feminine": {
@@ -162,7 +162,7 @@
           "1000000": "un millón[ >>];",
           "2000000": "<%spellout-cardinal-masculine< millones[ >>];",
           "1000000000000": "un billón[ >>];",
-          "2000000000000": "<%spellout-cardinal-masculine< billiones[ >>];",
+          "2000000000000": "<%spellout-cardinal-masculine< billones[ >>];",
           "1000000000000000000": "=#,##0=;"
         },
         "%spellout-ordinal-masculine-adjective": {

@@ -2,15 +2,15 @@
   "rbnf": {
     "identity": {
       "version": {
-        "number": "$Revision: 11914 $",
-        "cldrVersion": "29"
+        "number": "$Revision: 12722 $",
+        "cldrVersion": "30"
       },
       "language": "ko"
     },
     "rbnf": {
       "SpelloutRules": {
         "%spellout-numbering-year": {
-          "x.x": "=#,###0.#=;",
+          "x.x": "=0.0=;",
           "0": "=%spellout-numbering=;"
         },
         "%spellout-numbering": {
@@ -43,7 +43,7 @@
           "100000000": "<<억[ >>];",
           "1000000000000": "<<조[ >>];",
           "10000000000000000": "<<경[ >>];",
-          "1000000000000000000": "=#,###0=;"
+          "1000000000000000000": "=#,##0=;"
         },
         "%spellout-cardinal-native-attributive": {
           "-x": "마이너스 >>;",
@@ -77,7 +77,7 @@
           "100000000": "<%spellout-cardinal-sinokorean<억[ >>];",
           "1000000000000": "<%spellout-cardinal-sinokorean<조[ >>];",
           "10000000000000000": "<%spellout-cardinal-sinokorean<경[ >>];",
-          "1000000000000000000": "=#,###0=;"
+          "1000000000000000000": "=#,##0=;"
         },
         "%spellout-cardinal-native": {
           "-x": "마이너스 >>;",
@@ -123,11 +123,11 @@
           "100000000": "<<억[>>];",
           "1000000000000": "<<조[>>];",
           "10000000000000000": "<<경[>>];",
-          "1000000000000000000": "=#,###0=;"
+          "1000000000000000000": "=#,##0=;"
         },
         "%spellout-ordinal-sinokorean-count": {
           "-x": "마이너스 >>;",
-          "x.x": "=#,###0.#=;",
+          "x.x": "=#,##0.#=;",
           "0": "=%%spellout-ordinal-native-count-smaller= 번째;",
           "10": "=%%spellout-ordinal-sinokorean-count-smaller= 번째;"
         },
@@ -178,7 +178,7 @@
         },
         "%spellout-ordinal-native-count": {
           "-x": "마이너스 >>;",
-          "x.x": "=#,###0.#=;",
+          "x.x": "=#,##0.#=;",
           "0": "=%%spellout-ordinal-native-count-smaller= 번째;"
         },
         "%%spellout-ordinal-native-count-smaller": {
@@ -207,7 +207,7 @@
           "100000000": "<%spellout-cardinal-sinokorean<억[ >>];",
           "1000000000000": "<%spellout-cardinal-sinokorean<조[ >>];",
           "10000000000000000": "<%spellout-cardinal-sinokorean<경[ >>];",
-          "1000000000000000000": "=#,###0=;"
+          "1000000000000000000": "=#,##0=;"
         },
         "%spellout-ordinal-sinokorean": {
           "0": "=%spellout-ordinal-native=;",
@@ -215,7 +215,7 @@
           "100": "=%%spellout-ordinal-sinokorean-count-larger=째;"
         },
         "%spellout-ordinal-native": {
-          "x.x": "=#,###0.#=;",
+          "x.x": "=#,##0.#=;",
           "-x": "마이너스 >>;",
           "0": "=%%spellout-ordinal-native-priv=째;"
         },
@@ -255,7 +255,7 @@
           "100000000": "<%spellout-cardinal-sinokorean<억[ >%%spellout-ordinal-native-smaller-x02>];",
           "1000000000000": "<%spellout-cardinal-sinokorean<조[ >%%spellout-ordinal-native-smaller-x02>];",
           "10000000000000000": "<%spellout-cardinal-sinokorean<경[ >%%spellout-ordinal-native-smaller-x02>];",
-          "1000000000000000000": "=#,###0=;"
+          "1000000000000000000": "=#,##0=;"
         },
         "spellout-ordinal-native-smaller-x02": {
           "0": "=%%spellout-ordinal-native-smaller=;",

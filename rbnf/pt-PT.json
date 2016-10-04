@@ -2,38 +2,19 @@
   "rbnf": {
     "identity": {
       "version": {
-        "number": "$Revision: 11914 $",
-        "cldrVersion": "29"
+        "number": "$Revision: 12722 $",
+        "cldrVersion": "30"
       },
       "language": "pt",
       "territory": "PT"
     },
     "rbnf": {
-      "OrdinalRules": {
-        "%%dord-mascabbrev": {
-          "0": "º;"
-        },
-        "%digits-ordinal-masculine": {
-          "-x": "−>>;",
-          "0": "=#,##0==%%dord-mascabbrev=;"
-        },
-        "%%dord-femabbrev": {
-          "0": "ª;"
-        },
-        "%digits-ordinal-feminine": {
-          "-x": "−>>;",
-          "0": "=#,##0==%%dord-femabbrev=;"
-        },
-        "%digits-ordinal": {
-          "0": "=%digits-ordinal-masculine=;"
-        }
-      },
       "SpelloutRules": {
         "%%lenient-parse": {
           "0": "&[last primary ignorable ] << ' ' << ',' << '-' << '­';"
         },
         "%spellout-numbering-year": {
-          "x.x": "=#,###0.#=;",
+          "x.x": "=0.0=;",
           "0": "=%spellout-numbering=;"
         },
         "%spellout-numbering": {

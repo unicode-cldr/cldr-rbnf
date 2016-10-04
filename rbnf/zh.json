@@ -2,21 +2,21 @@
   "rbnf": {
     "identity": {
       "version": {
-        "number": "$Revision: 11914 $",
-        "cldrVersion": "29"
+        "number": "$Revision: 12722 $",
+        "cldrVersion": "30"
       },
       "language": "zh"
     },
     "rbnf": {
       "OrdinalRules": {
         "%digits-ordinal": {
-          "-x": "第−>#,###0>;",
-          "0": "第=#,###0=;"
+          "-x": "第−>#,##0>;",
+          "0": "第=#,##0=;"
         }
       },
       "SpelloutRules": {
         "%spellout-numbering-year": {
-          "x.x": "=#,###0.#=;",
+          "x.x": "=0.0=;",
           "0": "=%spellout-numbering=;",
           "1000": "=%%spellout-numbering-year-digits=;",
           "10000": "=%spellout-numbering=;"
@@ -65,7 +65,7 @@
           "100000000": "<<亿[>%%number5>];",
           "1000000000000": "<<兆[>%%number8>];",
           "10000000000000000": "<<京[>%%number13>];",
-          "1000000000000000000": "=#,###0=;"
+          "1000000000000000000": "=#,##0=;"
         },
         "%%number2": {
           "1": "〇=%spellout-numbering=;",
@@ -125,7 +125,7 @@
           "100000000": "<<亿[>%%financialnumber5>];",
           "1000000000000": "<<兆[>%%financialnumber8>];",
           "10000000000000000": "<<京[>%%financialnumber13>];",
-          "1000000000000000000": "=#,###0=;"
+          "1000000000000000000": "=#,##0=;"
         },
         "%%financialnumber2": {
           "1": "零=%spellout-cardinal-financial=;",
@@ -184,7 +184,7 @@
           "100000000": "<<亿[>%%cardinal5>];",
           "1000000000000": "<<兆[>%%cardinal8>];",
           "10000000000000000": "<<京[>%%cardinal13>];",
-          "1000000000000000000": "=#,###0=;"
+          "1000000000000000000": "=#,##0=;"
         },
         "%%cardinal2": {
           "1": "零=%spellout-numbering=;",
@@ -247,7 +247,7 @@
           "100000000": "<<亿[>%%cardinal-alternate2-5>];",
           "1000000000000": "<<兆[>%%cardinal-alternate2-8>];",
           "10000000000000000": "<<京[>%%cardinal-alternate2-13>];",
-          "1000000000000000000": "=#,###0=;"
+          "1000000000000000000": "=#,##0=;"
         },
         "%%cardinal-alternate2-2": {
           "1": "零=%spellout-numbering=;",
@@ -287,7 +287,7 @@
           "1000000000000": "=%spellout-cardinal-alternate2=;"
         },
         "%spellout-ordinal": {
-          "x.x": "=#,###0.#=;",
+          "x.x": "=#,##0.#=;",
           "0": "第=%spellout-numbering=;"
         }
       }
