@@ -3,7 +3,7 @@
     "identity": {
       "version": {
         "number": "$Revision: 12155 $",
-        "cldrVersion": "30"
+        "cldrVersion": "30.0.2"
       },
       "language": "en"
     },
