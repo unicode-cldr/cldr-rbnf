@@ -1,9 +1,0 @@
-{
-  "name": "cldr-rbnf",
-  "version": "30.0.3",
-  "main": "rbnf/*.json",
-  "ignore": [
-    ".gitattributes",
-    "README.md"
-  ]
-}
