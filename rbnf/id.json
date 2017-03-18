@@ -2,16 +2,16 @@
   "rbnf": {
     "identity": {
       "version": {
-        "number": "$Revision: 12722 $",
-        "cldrVersion": "30.0.3"
+        "number": "$Revision: 13238 $",
+        "cldrVersion": "31"
       },
       "language": "id"
     },
     "rbnf": {
       "OrdinalRules": {
         "%digits-ordinal": {
-          "-x": "ke−>#,##0>;",
-          "0": "ke=#,##0=;"
+          "-x": "−ke->#,##0>;",
+          "0": "ke-=#,##0=;"
         }
       },
       "SpelloutRules": {
