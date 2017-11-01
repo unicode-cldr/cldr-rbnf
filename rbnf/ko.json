@@ -2,12 +2,18 @@
   "rbnf": {
     "identity": {
       "version": {
-        "number": "$Revision: 12722 $",
-        "cldrVersion": "31.0.1"
+        "number": "$Revision: 13484 $",
+        "cldrVersion": "32"
       },
       "language": "ko"
     },
     "rbnf": {
+      "OrdinalRules": {
+        "%digits-ordinal": {
+          "-x": "−>>;",
+          "0": "=#,##0=번째;"
+        }
+      },
       "SpelloutRules": {
         "%spellout-numbering-year": {
           "x.x": "=0.0=;",

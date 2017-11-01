@@ -2,8 +2,8 @@
   "rbnf": {
     "identity": {
       "version": {
-        "number": "$Revision: 12722 $",
-        "cldrVersion": "31.0.1"
+        "number": "$Revision: 13481 $",
+        "cldrVersion": "32"
       },
       "language": "sv"
     },
@@ -14,22 +14,11 @@
         },
         "%digits-ordinal-masculine": {
           "-x": "−>>;",
-          "0": "=#,##0==%%dord-mascabbrev=;"
-        },
-        "%%dord-mascabbrev": {
-          "0": ":e;"
+          "0": "=#,##0=:e;"
         },
         "%digits-ordinal-feminine": {
           "-x": "−>>;",
-          "0": "=#,##0==%%dord-femabbrev=;"
-        },
-        "%%dord-femabbrev": {
-          "0": ":e;",
-          "1": ":a;",
-          "2": ":a;",
-          "3": ":e;",
-          "20": ">>;",
-          "100": ">>;"
+          "0": "=#,##0=$(ordinal,one{:a}other{:e})$;"
         },
         "%digits-ordinal-reale": {
           "0": "=%digits-ordinal-feminine=;"
