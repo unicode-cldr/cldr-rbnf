@@ -3,14 +3,14 @@
     "identity": {
       "version": {
         "number": "$Revision: 12722 $",
-        "cldrVersion": "30"
+        "cldrVersion": "33"
       },
       "language": "ga"
     },
     "rbnf": {
       "OrdinalRules": {
         "%digits-ordinal": {
-          "-x": "−>>;",
+          "-x": "−→→;",
           "0": "=#,##0=ú;"
         }
       },
@@ -23,10 +23,10 @@
           "10": "=%%spellout-numbering-no-a=;"
         },
         "%spellout-numbering-year": {
-          "-x": "míneas >>;",
+          "-x": "míneas →→;",
           "x.x": "=0.0=;",
           "0": "=%spellout-numbering=;",
-          "1000/100": "<%%spellout-numbering-no-a< >%%2d-year>;",
+          "1000/100": "←%%spellout-numbering-no-a← →%%2d-year→;",
           "10000": "=%spellout-numbering=;"
         },
         "%%spellout-numbering-no-a": {
@@ -41,14 +41,14 @@
           "8": "ocht;",
           "9": "naoi;",
           "10": "deich;",
-          "11": ">> déag;",
-          "12": ">> dhéag;",
-          "13": ">> déag;",
+          "11": "→→ déag;",
+          "12": "→→ dhéag;",
+          "13": "→→ déag;",
           "20": "=%spellout-numbering=;"
         },
         "%spellout-numbering": {
-          "-x": "míneas >>;",
-          "x.x": "<< pointe >>;",
+          "-x": "míneas →→;",
+          "x.x": "←← pointe →→;",
           "0": "a náid;",
           "1": "a haon;",
           "2": "a dó;",
@@ -60,23 +60,23 @@
           "8": "a hocht;",
           "9": "a naoi;",
           "10": "a deich;",
-          "11": ">> déag;",
-          "12": ">> dhéag;",
-          "13": ">> déag;",
-          "20": "fiche[ >>];",
-          "30": "tríocha[ >>];",
-          "40": "daichead[ >>];",
-          "50": "caoga[ >>];",
-          "60": "seasca[ >>];",
-          "70": "seachtó[ >>];",
-          "80": "ochtó[ >>];",
-          "90": "nócha[ >>];",
-          "100": "<%%hundreds<[>%%is-number>];",
-          "1000": "<%%thousands<[, >%spellout-numbering>];",
-          "1000000": "<%%millions<[, >%spellout-numbering>];",
-          "1000000000": "<%%billions<[, >%spellout-numbering>];",
-          "1000000000000": "<%%trillions<[, >%spellout-numbering>];",
-          "1000000000000000": "<%%quadrillions<[, >%spellout-numbering>];",
+          "11": "→→ déag;",
+          "12": "→→ dhéag;",
+          "13": "→→ déag;",
+          "20": "fiche[ →→];",
+          "30": "tríocha[ →→];",
+          "40": "daichead[ →→];",
+          "50": "caoga[ →→];",
+          "60": "seasca[ →→];",
+          "70": "seachtó[ →→];",
+          "80": "ochtó[ →→];",
+          "90": "nócha[ →→];",
+          "100": "←%%hundreds←[→%%is-number→];",
+          "1000": "←%%thousands←[, →%spellout-numbering→];",
+          "1000000": "←%%millions←[, →%spellout-numbering→];",
+          "1000000000": "←%%billions←[, →%spellout-numbering→];",
+          "1000000000000": "←%%trillions←[, →%spellout-numbering→];",
+          "1000000000000000": "←%%quadrillions←[, →%spellout-numbering→];",
           "1000000000000000000": "=#,##0=;"
         },
         "%%is-number": {
@@ -108,27 +108,27 @@
           "8": "ocht;",
           "9": "naoi;",
           "10": "deich;",
-          "11": ">>;",
-          "20": "fiche[ is >>];",
-          "30": "tríocha[ is >>];",
-          "40": "daichead[ is >>];",
-          "50": "caoga[ is >>];",
-          "60": "seasca[ is >>];",
-          "70": "seachtó[ is >>];",
-          "80": "ochtó[ is >>];",
-          "90": "nócha[ is >>];",
-          "100": "<%%hundreds<[>%%is-numberp>];",
-          "1000": "<%%thousands<[, >%%numberp>];",
-          "1000000": "<%%millions<[, >%%numberp>];",
-          "1000000000": "<%%billions<[, >%%numberp>];",
-          "1000000000000": "<%%trillions<[, >%%numberp>];",
-          "1000000000000000": "<%%quadrillions<[, >%%numberp>];",
+          "11": "→→;",
+          "20": "fiche[ is →→];",
+          "30": "tríocha[ is →→];",
+          "40": "daichead[ is →→];",
+          "50": "caoga[ is →→];",
+          "60": "seasca[ is →→];",
+          "70": "seachtó[ is →→];",
+          "80": "ochtó[ is →→];",
+          "90": "nócha[ is →→];",
+          "100": "←%%hundreds←[→%%is-numberp→];",
+          "1000": "←%%thousands←[, →%%numberp→];",
+          "1000000": "←%%millions←[, →%%numberp→];",
+          "1000000000": "←%%billions←[, →%%numberp→];",
+          "1000000000000": "←%%trillions←[, →%%numberp→];",
+          "1000000000000000": "←%%quadrillions←[, →%%numberp→];",
           "1000000000000000000": "=#,##0=;"
         },
         "%%is": {
           "0": "' is;",
           "1": ";",
-          "10": ">>;"
+          "10": "→→;"
         },
         "%%hundreds": {
           "1": "céad;",
@@ -144,7 +144,7 @@
         "%%thousands": {
           "1": "míle;",
           "2": "=%%spellout-cardinal-prefixpart= =%%thousandp=;",
-          "100": "<%%hundreds<>%%is-thousands>;"
+          "100": "←%%hundreds←→%%is-thousands→;"
         },
         "%%thousandp": {
           "2": "=%%thousand=;",
@@ -155,7 +155,7 @@
           "0": "míle;",
           "1": "mhíle;",
           "7": "míle;",
-          "11": ">>;"
+          "11": "→→;"
         },
         "%%is-thousands": {
           "0": "' =%%thousand=;",
@@ -166,7 +166,7 @@
         "%%millions": {
           "1": "milliún;",
           "2": "=%%spellout-cardinal-prefixpart= =%%millionsp=;",
-          "100": "<%%hundreds<>%%is-millions>;"
+          "100": "←%%hundreds←→%%is-millions→;"
         },
         "%%millionsp": {
           "2": "=%%million=;",
@@ -177,7 +177,7 @@
           "0": "milliún;",
           "1": "mhilliún;",
           "7": "milliún;",
-          "11": ">>;"
+          "11": "→→;"
         },
         "%%is-millions": {
           "0": "' =%%million=;",
@@ -190,7 +190,7 @@
           "2": "=%%spellout-cardinal-prefixpart= billiún;",
           "11": "=%%spellout-cardinal-prefixpart= billiún déag;",
           "20": "=%%spellout-cardinal-prefixpart= billiún;",
-          "100": "<%%hundreds<>%%is-billions>;"
+          "100": "←%%hundreds←→%%is-billions→;"
         },
         "%%is-billions": {
           "0": "' billiún;",
@@ -201,7 +201,7 @@
         "%%trillions": {
           "1": "thrilliún;",
           "2": "=%%spellout-cardinal-prefixpart= =%%trillionsp=;",
-          "100": "<%%hundreds<>%%is-trillions>;"
+          "100": "←%%hundreds←→%%is-trillions→;"
         },
         "%%trillionsp": {
           "2": "=%%trillion=;",
@@ -212,7 +212,7 @@
           "0": "dtrilliún;",
           "1": "thrilliún;",
           "7": "dtrilliún;",
-          "11": ">>;"
+          "11": "→→;"
         },
         "%%is-trillions": {
           "0": "' =%%trillion=;",
@@ -225,7 +225,7 @@
           "2": "=%%spellout-cardinal-prefixpart= quadrilliún;",
           "11": "=%%spellout-cardinal-prefixpart= quadrilliún déag;",
           "20": "=%%spellout-cardinal-prefixpart= quadrilliún;",
-          "100": "<%%hundreds<>%%is-quadrillions>;"
+          "100": "←%%hundreds←→%%is-quadrillions→;"
         },
         "%%is-quadrillions": {
           "0": "' quadrilliún;",

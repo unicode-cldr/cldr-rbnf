@@ -3,7 +3,7 @@
     "identity": {
       "version": {
         "number": "$Revision: 12154 $",
-        "cldrVersion": "30"
+        "cldrVersion": "33"
       },
       "language": "es",
       "territory": "419"
@@ -16,19 +16,19 @@
           "2": "º;",
           "3": "ᵉʳ;",
           "4": "º;",
-          "20": ">>;",
-          "100": ">>;"
+          "20": "→→;",
+          "100": "→→;"
         },
         "%digits-ordinal-masculine-adjective": {
-          "-x": "−>>;",
+          "-x": "−→→;",
           "0": "=#,##0==%%dord-mascabbrev=.;"
         },
         "%digits-ordinal-masculine": {
-          "-x": "−>>;",
+          "-x": "−→→;",
           "0": "=#,##0=º.;"
         },
         "%digits-ordinal-feminine": {
-          "-x": "−>>;",
+          "-x": "−→→;",
           "0": "=#,##0=ª.;"
         },
         "%digits-ordinal": {

@@ -3,25 +3,25 @@
     "identity": {
       "version": {
         "number": "$Revision: 12722 $",
-        "cldrVersion": "30"
+        "cldrVersion": "33"
       },
       "language": "nn"
     },
     "rbnf": {
       "SpelloutRules": {
         "%spellout-numbering-year": {
-          "-x": "minus >>;",
+          "-x": "minus →→;",
           "x.x": "=0.0=;",
           "0": "=%spellout-numbering=;",
-          "1100/100": "<< hundre[ og >>];",
+          "1100/100": "←← hundre[ og →→];",
           "10000": "=%spellout-numbering=;"
         },
         "%spellout-numbering": {
           "0": "=%spellout-cardinal-reale=;"
         },
         "%spellout-cardinal-neuter": {
-          "-x": "minus >>;",
-          "x.x": "<< komma >>;",
+          "-x": "minus →→;",
+          "x.x": "←← komma →→;",
           "0": "null;",
           "1": "eitt;",
           "2": "=%spellout-cardinal-reale=;"
@@ -33,8 +33,8 @@
           "0": "=%spellout-cardinal-reale=;"
         },
         "%spellout-cardinal-reale": {
-          "-x": "minus >>;",
-          "x.x": "<< komma >>;",
+          "-x": "minus →→;",
+          "x.x": "←← komma →→;",
           "0": "null;",
           "1": "éin;",
           "2": "to;",
@@ -55,24 +55,24 @@
           "17": "sytten;",
           "18": "atten;",
           "19": "nitten;",
-          "20": "tjue[­>>];",
-          "30": "tretti[­>>];",
-          "40": "førti[­>>];",
-          "50": "femti[­>>];",
-          "60": "seksti[­>>];",
-          "70": "søtti[­>>];",
-          "80": "åtti[­>>];",
-          "90": "nitti[­>>];",
-          "100": "<%spellout-cardinal-neuter< hundre[ og >>];",
-          "1000": "<%spellout-cardinal-neuter< tusen[ og >>];",
-          "1000000": "éin miljon[ >>];",
-          "2000000": "<< miljoner[ >>];",
-          "1000000000": "éin miljard[ >>];",
-          "2000000000": "<< miljarder[ >>];",
-          "1000000000000": "éin biljon[ >>];",
-          "2000000000000": "<< biljoner[ >>];",
-          "1000000000000000": "éin biljard[ >>];",
-          "2000000000000000": "<< biljarder[ >>];",
+          "20": "tjue[­→→];",
+          "30": "tretti[­→→];",
+          "40": "førti[­→→];",
+          "50": "femti[­→→];",
+          "60": "seksti[­→→];",
+          "70": "søtti[­→→];",
+          "80": "åtti[­→→];",
+          "90": "nitti[­→→];",
+          "100": "←%spellout-cardinal-neuter← hundre[ og →→];",
+          "1000": "←%spellout-cardinal-neuter← tusen[ og →→];",
+          "1000000": "éin miljon[ →→];",
+          "2000000": "←← miljoner[ →→];",
+          "1000000000": "éin miljard[ →→];",
+          "2000000000": "←← miljarder[ →→];",
+          "1000000000000": "éin biljon[ →→];",
+          "2000000000000": "←← biljoner[ →→];",
+          "1000000000000000": "éin biljard[ →→];",
+          "2000000000000000": "←← biljarder[ →→];",
           "1000000000000000000": "=#,##0=;"
         }
       }

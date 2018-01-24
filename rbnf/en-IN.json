@@ -2,10 +2,11 @@
   "rbnf": {
     "identity": {
       "version": {
-        "number": "$Revision: 12155 $",
+        "number": "$Revision: 13513 $",
         "cldrVersion": "33"
       },
-      "language": "en"
+      "language": "en",
+      "territory": "IN"
     },
     "rbnf": {
       "OrdinalRules": {
@@ -99,8 +100,8 @@
           "90": "ninety[-→→];",
           "100": "←← hundred[ →→];",
           "1000": "←← thousand[ →→];",
-          "1000000": "←← million[ →→];",
-          "1000000000": "←← billion[ →→];",
+          "100000": "←← lakh[ →→];",
+          "10000000": "←← crore[ →→];",
           "1000000000000": "←← trillion[ →→];",
           "1000000000000000": "←← quadrillion[ →→];",
           "1000000000000000000": "=#,##0=;"
@@ -123,9 +124,8 @@
           "0": "=%spellout-numbering=;",
           "100": "←← hundred[→%%and→];",
           "1000": "←← thousand[→%%and→];",
-          "100000/1000": "←← thousand[→%%commas→];",
-          "1000000": "←← million[→%%commas→];",
-          "1000000000": "←← billion[→%%commas→];",
+          "100000": "←← lakh[→%%commas→];",
+          "10000000": "←← crore[→%%commas→];",
           "1000000000000": "←← trillion[→%%commas→];",
           "1000000000000000": "←← quadrillion[→%%commas→];",
           "1000000000000000000": "=#,##0=;"

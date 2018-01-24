@@ -3,26 +3,26 @@
     "identity": {
       "version": {
         "number": "$Revision: 12722 $",
-        "cldrVersion": "30"
+        "cldrVersion": "33"
       },
       "language": "fr"
     },
     "rbnf": {
       "OrdinalRules": {
         "%digits-ordinal-masculine": {
-          "-x": "−>>;",
+          "-x": "−→→;",
           "0": "=#,##0=$(ordinal,one{er}other{e})$;"
         },
         "%digits-ordinal-feminine": {
-          "-x": "−>>;",
+          "-x": "−→→;",
           "0": "=#,##0=$(ordinal,one{re}other{e})$;"
         },
         "%digits-ordinal-masculine-plural": {
-          "-x": "−>>;",
+          "-x": "−→→;",
           "0": "=#,##0=$(ordinal,one{ers}other{es})$;"
         },
         "%digits-ordinal-feminine-plural": {
-          "-x": "−>>;",
+          "-x": "−→→;",
           "0": "=#,##0=$(ordinal,one{res}other{es})$;"
         },
         "%digits-ordinal": {
@@ -31,13 +31,13 @@
       },
       "SpelloutRules": {
         "%%lenient-parse": {
-          "0": "&[last primary ignorable ] << ' ' << ',' << '-' << '­';"
+          "0": "&[last primary ignorable ] ←← ' ' ←← ',' ←← '-' ←← '­';"
         },
         "%spellout-numbering-year": {
-          "-x": "moins >>;",
+          "-x": "moins →→;",
           "x.x": "=0.0=;",
           "0": "=%spellout-numbering=;",
-          "1100/100": "<%spellout-cardinal-masculine<-cent>%%cents-m>;",
+          "1100/100": "←%spellout-cardinal-masculine←-cent→%%cents-m→;",
           "10000": "=%spellout-numbering=;"
         },
         "%spellout-numbering": {
@@ -59,14 +59,14 @@
         },
         "%%spellout-leading": {
           "0": "=%spellout-cardinal-masculine=;",
-          "80/20": "quatre-vingt[->>];",
-          "100": "cent[ >>];",
-          "200": "<< cent[ >>];",
+          "80/20": "quatre-vingt[-→→];",
+          "100": "cent[ →→];",
+          "200": "←← cent[ →→];",
           "1000": "=%spellout-cardinal-masculine=;"
         },
         "%spellout-cardinal-masculine": {
-          "-x": "moins >>;",
-          "x.x": "<< virgule >>;",
+          "-x": "moins →→;",
+          "x.x": "←← virgule →→;",
           "0": "zéro;",
           "1": "un;",
           "2": "deux;",
@@ -84,25 +84,25 @@
           "14": "quatorze;",
           "15": "quinze;",
           "16": "seize;",
-          "17": "dix->>;",
-          "20": "vingt[->%%et-un>];",
-          "30": "trente[->%%et-un>];",
-          "40": "quarante[->%%et-un>];",
-          "50": "cinquante[->%%et-un>];",
-          "60/20": "soixante[->%%et-un>];",
-          "80/20": "quatre-vingt>%%subcents-m>;",
-          "100": "cent[ >>];",
-          "200": "<< cent>%%cents-m>;",
-          "1000": "mille[ >>];",
-          "2000": "<%%spellout-leading< mille[ >>];",
-          "1000000": "un million[ >>];",
-          "2000000": "<%%spellout-leading< millions[ >>];",
-          "1000000000": "un milliard[ >>];",
-          "2000000000": "<%%spellout-leading< milliards[ >>];",
-          "1000000000000": "un billion[ >>];",
-          "2000000000000": "<%%spellout-leading< billions[ >>];",
-          "1000000000000000": "un billiard[ >>];",
-          "2000000000000000": "<%%spellout-leading< billiards[ >>];",
+          "17": "dix-→→;",
+          "20": "vingt[-→%%et-un→];",
+          "30": "trente[-→%%et-un→];",
+          "40": "quarante[-→%%et-un→];",
+          "50": "cinquante[-→%%et-un→];",
+          "60/20": "soixante[-→%%et-un→];",
+          "80/20": "quatre-vingt→%%subcents-m→;",
+          "100": "cent[ →→];",
+          "200": "←← cent→%%cents-m→;",
+          "1000": "mille[ →→];",
+          "2000": "←%%spellout-leading← mille[ →→];",
+          "1000000": "un million[ →→];",
+          "2000000": "←%%spellout-leading← millions[ →→];",
+          "1000000000": "un milliard[ →→];",
+          "2000000000": "←%%spellout-leading← milliards[ →→];",
+          "1000000000000": "un billion[ →→];",
+          "2000000000000": "←%%spellout-leading← billions[ →→];",
+          "1000000000000000": "un billiard[ →→];",
+          "2000000000000000": "←%%spellout-leading← billiards[ →→];",
           "1000000000000000000": "=#,##0=;"
         },
         "%%et-une": {
@@ -120,29 +120,29 @@
           "1": "-=%spellout-cardinal-feminine=;"
         },
         "%spellout-cardinal-feminine": {
-          "-x": "moins >>;",
-          "x.x": "<< virgule >>;",
+          "-x": "moins →→;",
+          "x.x": "←← virgule →→;",
           "0": "zéro;",
           "1": "une;",
           "2": "=%spellout-cardinal-masculine=;",
-          "20": "vingt[->%%et-une>];",
-          "30": "trente[->%%et-une>];",
-          "40": "quarante[->%%et-une>];",
-          "50": "cinquante[->%%et-une>];",
-          "60/20": "soixante[->%%et-une>];",
-          "80/20": "quatre-vingt>%%subcents-f>;",
-          "100": "cent[ >>];",
-          "200": "<%spellout-cardinal-masculine< cent>%%cents-f>;",
-          "1000": "mille[ >>];",
-          "2000": "<%%spellout-leading< mille[ >>];",
-          "1000000": "un million[ >>];",
-          "2000000": "<%%spellout-leading< millions[ >>];",
-          "1000000000": "un milliard[ >>];",
-          "2000000000": "<%%spellout-leading< milliards[ >>];",
-          "1000000000000": "un billion[ >>];",
-          "2000000000000": "<%%spellout-leading< billions[ >>];",
-          "1000000000000000": "un billiard[ >>];",
-          "2000000000000000": "<%%spellout-leading< billiards[ >>];",
+          "20": "vingt[-→%%et-une→];",
+          "30": "trente[-→%%et-une→];",
+          "40": "quarante[-→%%et-une→];",
+          "50": "cinquante[-→%%et-une→];",
+          "60/20": "soixante[-→%%et-une→];",
+          "80/20": "quatre-vingt→%%subcents-f→;",
+          "100": "cent[ →→];",
+          "200": "←%spellout-cardinal-masculine← cent→%%cents-f→;",
+          "1000": "mille[ →→];",
+          "2000": "←%%spellout-leading← mille[ →→];",
+          "1000000": "un million[ →→];",
+          "2000000": "←%%spellout-leading← millions[ →→];",
+          "1000000000": "un milliard[ →→];",
+          "2000000000": "←%%spellout-leading← milliards[ →→];",
+          "1000000000000": "un billion[ →→];",
+          "2000000000000": "←%%spellout-leading← billions[ →→];",
+          "1000000000000000": "un billiard[ →→];",
+          "2000000000000000": "←%%spellout-leading← billiards[ →→];",
           "1000000000000000000": "=#,##0=;"
         },
         "%%et-unieme": {
@@ -189,33 +189,33 @@
           "14": "quatorzième;",
           "15": "quinzième;",
           "16": "seizième;",
-          "17": "dix->>;",
+          "17": "dix-→→;",
           "20": "vingtième;",
-          "21": "vingt->%%et-unieme>;",
+          "21": "vingt-→%%et-unieme→;",
           "30": "trentième;",
-          "31": "trente->%%et-unieme>;",
+          "31": "trente-→%%et-unieme→;",
           "40": "quarantième;",
-          "41": "quarante->%%et-unieme>;",
+          "41": "quarante-→%%et-unieme→;",
           "50": "cinquantième;",
-          "51": "cinquante->%%et-unieme>;",
+          "51": "cinquante-→%%et-unieme→;",
           "60": "soixantième;",
-          "61/20": "soixante->%%et-unieme>;",
-          "80/20": "quatre-vingt>%%subcents-o>;",
-          "100": "cent>%%cents-o>;",
-          "200": "<%spellout-cardinal-masculine< cent>%%cents-o>;",
-          "1000": "mill>%%mille-o>;",
-          "2000": "<%%spellout-leading< mill>%%mille-o>;",
-          "1000000": "<%%spellout-leading< million>%%cents-o>;",
-          "1000000000": "<%%spellout-leading< milliard>%%cents-o>;",
-          "1000000000000": "<%%spellout-leading< billion>%%cents-o>;",
-          "1000000000000000": "<%%spellout-leading< billiard>%%cents-o>;",
+          "61/20": "soixante-→%%et-unieme→;",
+          "80/20": "quatre-vingt→%%subcents-o→;",
+          "100": "cent→%%cents-o→;",
+          "200": "←%spellout-cardinal-masculine← cent→%%cents-o→;",
+          "1000": "mill→%%mille-o→;",
+          "2000": "←%%spellout-leading← mill→%%mille-o→;",
+          "1000000": "←%%spellout-leading← million→%%cents-o→;",
+          "1000000000": "←%%spellout-leading← milliard→%%cents-o→;",
+          "1000000000000": "←%%spellout-leading← billion→%%cents-o→;",
+          "1000000000000000": "←%%spellout-leading← billiard→%%cents-o→;",
           "1000000000000000000": "=#,##0=;"
         },
         "%spellout-ordinal-masculine-plural": {
           "0": "=%spellout-ordinal-masculine=s;"
         },
         "%spellout-ordinal-masculine": {
-          "-x": "moins >>;",
+          "-x": "moins →→;",
           "x.x": "=#,##0.#=;",
           "0": "zéroième;",
           "1": "premier;",
@@ -225,7 +225,7 @@
           "0": "=%spellout-ordinal-feminine=s;"
         },
         "%spellout-ordinal-feminine": {
-          "-x": "moins >>;",
+          "-x": "moins →→;",
           "x.x": "=#,##0.#=;",
           "0": "zéroième;",
           "1": "première;",

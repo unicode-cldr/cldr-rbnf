@@ -3,7 +3,7 @@
     "identity": {
       "version": {
         "number": "$Revision: 12722 $",
-        "cldrVersion": "30"
+        "cldrVersion": "33"
       },
       "language": "az"
     },
@@ -13,7 +13,7 @@
           "0": "''inci;"
         },
         "%digits-ordinal": {
-          "-x": "−>>;",
+          "-x": "−→→;",
           "0": "=#,##0==%%digits-ordinal-indicator=;"
         }
       },
@@ -26,8 +26,8 @@
           "0": "=%spellout-cardinal=;"
         },
         "%spellout-cardinal": {
-          "-x": "əksi >>;",
-          "x.x": "<< tam >>;",
+          "-x": "əksi →→;",
+          "x.x": "←← tam →→;",
           "0": "sıfır;",
           "1": "bir;",
           "2": "iki;",
@@ -38,21 +38,21 @@
           "7": "yeddi;",
           "8": "səkkiz;",
           "9": "doqquz;",
-          "10": "on[ >>];",
-          "20": "iyirmi[ >>];",
-          "30": "otuz[ >>];",
-          "40": "qırx[ >>];",
-          "50": "əlli[ >>];",
-          "60": "atmış[ >>];",
-          "70": "yetmiş[ >>];",
-          "80": "səqsən[ >>];",
-          "90": "doxsan[ >>];",
-          "100": "<< yüz[ >>];",
-          "1000": "<< min[ >>];",
-          "1000000": "<< milyon[ >>];",
-          "1000000000": "<< milyard[ >>];",
-          "1000000000000": "<< trilyon[ >>];",
-          "1000000000000000": "<< katrilyon[ >>];",
+          "10": "on[ →→];",
+          "20": "iyirmi[ →→];",
+          "30": "otuz[ →→];",
+          "40": "qırx[ →→];",
+          "50": "əlli[ →→];",
+          "60": "atmış[ →→];",
+          "70": "yetmiş[ →→];",
+          "80": "səqsən[ →→];",
+          "90": "doxsan[ →→];",
+          "100": "←← yüz[ →→];",
+          "1000": "←← min[ →→];",
+          "1000000": "←← milyon[ →→];",
+          "1000000000": "←← milyard[ →→];",
+          "1000000000000": "←← trilyon[ →→];",
+          "1000000000000000": "←← katrilyon[ →→];",
           "1000000000000000000": "=#,##0=;"
         },
         "%%inci": {
@@ -76,7 +76,7 @@
           "1": "' =%spellout-ordinal=;"
         },
         "%spellout-ordinal": {
-          "-x": "əksi >>;",
+          "-x": "əksi →→;",
           "x.x": "=#,##0.#=;",
           "0": "sıfırıncı;",
           "1": "birinci;",
@@ -88,21 +88,21 @@
           "7": "yeddinci;",
           "8": "səkkizinci;",
           "9": "doqquzuncu;",
-          "10": "on>%%uncu>;",
-          "20": "iyirmi>%%nci>;",
-          "30": "otuz>%%uncu>;",
-          "40": "qırx>%%inci2>;",
-          "50": "əlli>%%nci>;",
-          "60": "altmış>%%inci2>;",
-          "70": "yetmiş>%%inci2>;",
-          "80": "səqsən>%%inci2>;",
-          "90": "doxsan>%%inci2>;",
-          "100": "<%spellout-numbering< yüz>%%uncu2>;",
-          "1000": "<%spellout-numbering< bin>%%inci>;",
-          "1000000": "<%spellout-numbering< milyon>%%uncu>;",
-          "1000000000": "<%spellout-numbering< milyar>%%inci2>;",
-          "1000000000000": "<%spellout-numbering< trilyon>%%uncu>;",
-          "1000000000000000": "<%spellout-numbering< katrilyon>%%uncu>;",
+          "10": "on→%%uncu→;",
+          "20": "iyirmi→%%nci→;",
+          "30": "otuz→%%uncu→;",
+          "40": "qırx→%%inci2→;",
+          "50": "əlli→%%nci→;",
+          "60": "altmış→%%inci2→;",
+          "70": "yetmiş→%%inci2→;",
+          "80": "səqsən→%%inci2→;",
+          "90": "doxsan→%%inci2→;",
+          "100": "←%spellout-numbering← yüz→%%uncu2→;",
+          "1000": "←%spellout-numbering← bin→%%inci→;",
+          "1000000": "←%spellout-numbering← milyon→%%uncu→;",
+          "1000000000": "←%spellout-numbering← milyar→%%inci2→;",
+          "1000000000000": "←%spellout-numbering← trilyon→%%uncu→;",
+          "1000000000000000": "←%spellout-numbering← katrilyon→%%uncu→;",
           "1000000000000000000": "=#,##0='inci;"
         }
       }

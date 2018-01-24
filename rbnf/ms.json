@@ -2,16 +2,16 @@
   "rbnf": {
     "identity": {
       "version": {
-        "number": "$Revision: 12722 $",
-        "cldrVersion": "30"
+        "number": "$Revision: 13140 $",
+        "cldrVersion": "33"
       },
       "language": "ms"
     },
     "rbnf": {
       "OrdinalRules": {
         "%digits-ordinal": {
-          "-x": "ke−>#,##0>;",
-          "0": "ke=#,##0=;"
+          "-x": "−ke-→#,##0→;",
+          "0": "ke-=#,##0=;"
         }
       },
       "SpelloutRules": {
@@ -23,8 +23,8 @@
           "0": "=%spellout-cardinal=;"
         },
         "%spellout-cardinal": {
-          "-x": "negatif >>;",
-          "x.x": "<< titik >>;",
+          "-x": "negatif →→;",
+          "x.x": "←← titik →→;",
           "0": "kosong;",
           "1": "satu;",
           "2": "dua;",
@@ -37,20 +37,20 @@
           "9": "sembilan;",
           "10": "sepuluh;",
           "11": "sebelas;",
-          "12": ">> belas;",
-          "20": "<< puluh[ >>];",
-          "100": "seratus[ >>];",
-          "200": "<< ratus[ >>];",
-          "1000": "seribu[ >>];",
-          "2000": "<< ribu[ >>];",
-          "1000000": "<< juta[ >>];",
-          "1000000000": "<< milyar[ >>];",
-          "1000000000000": "<< bilyun[ >>];",
-          "1000000000000000": "<< bilyar[ >>];",
+          "12": "→→ belas;",
+          "20": "←← puluh[ →→];",
+          "100": "seratus[ →→];",
+          "200": "←← ratus[ →→];",
+          "1000": "seribu[ →→];",
+          "2000": "←← ribu[ →→];",
+          "1000000": "←← juta[ →→];",
+          "1000000000": "←← milyar[ →→];",
+          "1000000000000": "←← bilyun[ →→];",
+          "1000000000000000": "←← bilyar[ →→];",
           "1000000000000000000": "=#,##0=;"
         },
         "%spellout-ordinal": {
-          "-x": "negatif >>;",
+          "-x": "negatif →→;",
           "x.x": "=#,##0.#=;",
           "0": "kekosong;",
           "1": "pertama;",

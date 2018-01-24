@@ -3,14 +3,14 @@
     "identity": {
       "version": {
         "number": "$Revision: 12722 $",
-        "cldrVersion": "30"
+        "cldrVersion": "33"
       },
       "language": "fil"
     },
     "rbnf": {
       "OrdinalRules": {
         "%digits-ordinal": {
-          "-x": "−>>;",
+          "-x": "−→→;",
           "0": "ika=#,##0=;"
         }
       },
@@ -33,14 +33,14 @@
           "8": "walóng;",
           "9": "siyám na;",
           "10": "sampûng;",
-          "11": "labíng->>;",
-          "20": "<%%number-times< pû[’t >>];",
-          "100": "<%%number-times< daán[ at >>];",
-          "1000": "<%%number-times< libó[’t >>];"
+          "11": "labíng-→→;",
+          "20": "←%%number-times← pû[’t →→];",
+          "100": "←%%number-times← daán[ at →→];",
+          "1000": "←%%number-times← libó[’t →→];"
         },
         "%spellout-cardinal": {
-          "-x": "minus >>;",
-          "x.x": "<< tuldok >>;",
+          "-x": "minus →→;",
+          "x.x": "←← tuldok →→;",
           "0": "walâ;",
           "1": "isá;",
           "2": "dalawá;",
@@ -52,14 +52,14 @@
           "8": "waló;",
           "9": "siyám;",
           "10": "sampû;",
-          "11": "labíng->>;",
-          "20": "<%%number-times< pû[’t >>];",
-          "100": "<%%number-times< daán[ at >>];",
-          "1000": "<%%number-times< libó[’t >>];",
-          "1000000": "<%%number-times< milyón[ at >>];",
-          "1000000000": "<%%number-times< bilyón[ at >>];",
-          "1000000000000": "<%%number-times< trilyón[ at >>];",
-          "1000000000000000": "<%%number-times< katrilyón[ at >>];",
+          "11": "labíng-→→;",
+          "20": "←%%number-times← pû[’t →→];",
+          "100": "←%%number-times← daán[ at →→];",
+          "1000": "←%%number-times← libó[’t →→];",
+          "1000000": "←%%number-times← milyón[ at →→];",
+          "1000000000": "←%%number-times← bilyón[ at →→];",
+          "1000000000000": "←%%number-times← trilyón[ at →→];",
+          "1000000000000000": "←%%number-times← katrilyón[ at →→];",
           "1000000000000000000": "=#,##0=;"
         },
         "%spellout-ordinal": {

@@ -3,14 +3,14 @@
     "identity": {
       "version": {
         "number": "$Revision: 12723 $",
-        "cldrVersion": "30"
+        "cldrVersion": "33"
       },
       "language": "vi"
     },
     "rbnf": {
       "OrdinalRules": {
         "%digits-ordinal": {
-          "-x": "−>>;",
+          "-x": "−→→;",
           "0": "thứ =#,##0=;"
         }
       },
@@ -43,8 +43,8 @@
           "100": "=%spellout-cardinal=;"
         },
         "%spellout-cardinal": {
-          "-x": "âm >>;",
-          "x.x": "<< phẩy >>;",
+          "-x": "âm →→;",
+          "x.x": "←← phẩy →→;",
           "0": "không;",
           "1": "một;",
           "2": "hai;",
@@ -55,12 +55,12 @@
           "7": "bảy;",
           "8": "tám;",
           "9": "chín;",
-          "10": "mười[ >%%teen>];",
-          "20": "<< mươi[ >%%x-ty>];",
-          "100": "<< trăm[ >%%after-hundred>];",
-          "1000": "<< nghìn[ >%%after-thousand-or-more>];",
-          "1000000": "<< triệu[ >%%after-hundred>];",
-          "1000000000": "<< tỷ[ >%%after-hundred>];",
+          "10": "mười[ →%%teen→];",
+          "20": "←← mươi[ →%%x-ty→];",
+          "100": "←← trăm[ →%%after-hundred→];",
+          "1000": "←← nghìn[ →%%after-thousand-or-more→];",
+          "1000000": "←← triệu[ →%%after-hundred→];",
+          "1000000000": "←← tỷ[ →%%after-hundred→];",
           "1000000000000000000": "=#,##0=;"
         },
         "%spellout-ordinal": {

@@ -3,7 +3,7 @@
     "identity": {
       "version": {
         "number": "$Revision: 12722 $",
-        "cldrVersion": "30"
+        "cldrVersion": "33"
       },
       "language": "kl"
     },
@@ -36,13 +36,13 @@
           "17": "arfersaneq-marlunnik;",
           "18": "arfersaneq-pingasunik;",
           "19": "arfersaneq-sisamanik;",
-          "20": "<%%numbertimes< qulillit[ >>];",
-          "100": "uutritit[ >>];",
-          "200": "<%%numbertimes< uutritillit[ >>];"
+          "20": "←%%numbertimes← qulillit[ →→];",
+          "100": "uutritit[ →→];",
+          "200": "←%%numbertimes← uutritillit[ →→];"
         },
         "%spellout-cardinal": {
-          "-x": "minus >>;",
-          "x.x": "<< komma >>;",
+          "-x": "minus →→;",
+          "x.x": "←← komma →→;",
           "0": "nuulu;",
           "1": "ataaseq;",
           "2": "marluk;",
@@ -63,19 +63,19 @@
           "17": "arfersaneq-marluk;",
           "18": "arfersaneq-pingasut;",
           "19": "arfersaneq-sisamat;",
-          "20": "<%%numbertimes< qulillit[ >>];",
-          "100": "uutritit[ >>];",
-          "200": "<%%numbertimes< uutritillit[ >>];",
-          "1000": "tuusintit[ >>];",
-          "2000": "<%%numbertimes< tuusintillit[ >>];",
-          "1000000": "millionit[ >>];",
-          "2000000": "<%%numbertimes< millionillit[ >>];",
-          "1000000000": "milliardit[ >>];",
-          "2000000000": "<%%numbertimes< milliardillit[ >>];",
-          "1000000000000": "billionit[ >>];",
-          "2000000000000": "<%%numbertimes< billioniillit[ >>];",
-          "1000000000000000": "billiardit[ >>];",
-          "2000000000000000": "<%%numbertimes< billiardillit[ >>];",
+          "20": "←%%numbertimes← qulillit[ →→];",
+          "100": "uutritit[ →→];",
+          "200": "←%%numbertimes← uutritillit[ →→];",
+          "1000": "tuusintit[ →→];",
+          "2000": "←%%numbertimes← tuusintillit[ →→];",
+          "1000000": "millionit[ →→];",
+          "2000000": "←%%numbertimes← millionillit[ →→];",
+          "1000000000": "milliardit[ →→];",
+          "2000000000": "←%%numbertimes← milliardillit[ →→];",
+          "1000000000000": "billionit[ →→];",
+          "2000000000000": "←%%numbertimes← billioniillit[ →→];",
+          "1000000000000000": "billiardit[ →→];",
+          "2000000000000000": "←%%numbertimes← billiardillit[ →→];",
           "1000000000000000000": "=#,##0=;"
         }
       }
