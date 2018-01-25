@@ -263,11 +263,9 @@
           "10000000000000000": "←%spellout-cardinal-sinokorean←경[ →%%spellout-ordinal-native-smaller-x02→];",
           "1000000000000000000": "=#,##0=;"
         },
-        "spellout-ordinal-native-smaller-x02": {
-          "0": "=%%spellout-ordinal-native-smaller=;",
-          "2": "둘;"
-        },
         "%%spellout-ordinal-native-smaller-x02": {
+          "0": "=%%spellout-ordinal-native-smaller=;",
+          "2": "둘;",
           "3": "=%%spellout-ordinal-native-smaller=;"
         }
       }

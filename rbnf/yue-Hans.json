@@ -74,10 +74,8 @@
           "20": "零=%spellout-numbering=;",
           "10000000": "=%spellout-numbering=;"
         },
-        "number13": {
-          "1": "零=%spellout-numbering=;"
-        },
         "%%number13": {
+          "1": "零=%spellout-numbering=;",
           "10": "零一=%spellout-numbering=;",
           "20": "零=%spellout-numbering=;",
           "1000000000000": "=%spellout-numbering=;"
@@ -134,10 +132,8 @@
           "20": "零=%spellout-cardinal-financial=;",
           "10000000": "=%spellout-cardinal-financial=;"
         },
-        "financialnumber13": {
-          "1": "零=%spellout-cardinal-financial=;"
-        },
         "%%financialnumber13": {
+          "1": "零=%spellout-cardinal-financial=;",
           "10": "零壹=%spellout-cardinal-financial=;",
           "20": "零=%spellout-cardinal-financial=;",
           "1000000000000": "=%spellout-cardinal-financial=;"
@@ -170,12 +166,8 @@
           "-x": "负→→;",
           "x.x": "=%spellout-cardinal=;",
           "0": "零;",
-          "1": "一;"
-        },
-        "spellout-cardinal-alternate2": {
-          "2": "两;"
-        },
-        "%spellout-cardinal-alternate2": {
+          "1": "一;",
+          "2": "两;",
           "3": "三;",
           "4": "四;",
           "5": "五;",
