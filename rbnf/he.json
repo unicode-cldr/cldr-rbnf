@@ -2,8 +2,8 @@
   "rbnf": {
     "identity": {
       "version": {
-        "number": "$Revision: 12722 $",
-        "cldrVersion": "32.0.1"
+        "number": "$Revision: 13834 $",
+        "cldrVersion": "33"
       },
       "language": "he"
     },
@@ -219,7 +219,7 @@
           "x.x": "<%%spellout-numbering-m< נקודה >> ;",
           "0": "אפס;",
           "1": "אחד;",
-          "2": "שניים;",
+          "2": "שני;",
           "3": "שלושה;",
           "4": "ארבעה;",
           "5": "חמישה;",
@@ -261,6 +261,20 @@
           "1000000000000000000": "=#,##0=;"
         },
         "%spellout-cardinal-feminine": {
+          "-x": "מינוס >>;",
+          "x.x": "<< נקודה >>;",
+          "0": "=%spellout-numbering=;",
+          "2": "שתי;",
+          "3": "=%spellout-numbering=;"
+        },
+        "%spellout-cardinal-masculine-standalone": {
+          "-x": "מינוס >>;",
+          "x.x": "<%%spellout-numbering-m< נקודה >> ;",
+          "0": "=%spellout-cardinal-masculine=;",
+          "2": "שניים;",
+          "3": "=%spellout-cardinal-masculine=;"
+        },
+        "%spellout-cardinal-feminine-standalone": {
           "0": "=%spellout-numbering=;"
         },
         "%spellout-construct-masculine": {
