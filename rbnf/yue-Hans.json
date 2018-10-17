@@ -2,8 +2,8 @@
   "rbnf": {
     "identity": {
       "version": {
-        "number": "$Revision: 13708 $",
-        "cldrVersion": "33"
+        "number": "$Revision: 14450 $",
+        "cldrVersion": "34"
       },
       "language": "yue",
       "script": "Hans"

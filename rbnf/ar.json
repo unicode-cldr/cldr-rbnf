@@ -2,8 +2,8 @@
   "rbnf": {
     "identity": {
       "version": {
-        "number": "$Revision: 12722 $",
-        "cldrVersion": "33"
+        "number": "$Revision: 14199 $",
+        "cldrVersion": "34"
       },
       "language": "ar"
     },
@@ -55,10 +55,10 @@
           "2000000": "<%%spellout-numbering-m< مليون[ و >%spellout-numbering>];",
           "1000000000": "مليار[ و >%spellout-numbering>];",
           "2000000000": "<%%spellout-numbering-m< مليار[ و >%spellout-numbering>];",
-          "1000000000000": "بليون[ و >%spellout-numbering>];",
-          "2000000000000": "<%%spellout-numbering-m< بليون[ و >%spellout-numbering>];",
-          "1000000000000000": "بليار[ و >%spellout-numbering>];",
-          "2000000000000000": "<%%spellout-numbering-m< بليار[ و >%spellout-numbering>];",
+          "1000000000000": "ترليون[ و >%spellout-numbering>];",
+          "2000000000000": "<%%spellout-numbering-m< ترليون[ و >%spellout-numbering>];",
+          "1000000000000000": "كوادرليون[ و >%spellout-numbering>];",
+          "2000000000000000": "<%%spellout-numbering-m< كوادرليون[ و >%spellout-numbering>];",
           "1000000000000000000": "=#,##0=;"
         },
         "%spellout-cardinal-feminine": {
@@ -97,10 +97,10 @@
           "2000000": "<%%spellout-numbering-m< مليون[ و >%spellout-numbering>];",
           "1000000000": "مليار[ و >%spellout-numbering>];",
           "2000000000": "<%%spellout-numbering-m< مليار[ و >%spellout-numbering>];",
-          "1000000000000": "بليون[ و >%spellout-numbering>];",
-          "2000000000000": "<%%spellout-numbering-m< بليون[ و >%spellout-numbering>];",
-          "1000000000000000": "بليار[ و >%spellout-numbering>];",
-          "2000000000000000": "<%%spellout-numbering-m< بليار[ و >%spellout-numbering>];",
+          "1000000000000": "ترليون[ و >%spellout-numbering>];",
+          "2000000000000": "<%%spellout-numbering-m< ترليون[ و >%spellout-numbering>];",
+          "1000000000000000": "كوادرليون[ و >%spellout-numbering>];",
+          "2000000000000000": "<%%spellout-numbering-m< كوادرليون[ و >%spellout-numbering>];",
           "1000000000000000000": "=#,##0=;"
         },
         "%%spellout-numbering-m": {
@@ -137,10 +137,10 @@
           "2000000": "<%%spellout-numbering-m< مليون[ و >%%spellout-numbering-m>];",
           "1000000000": "مليار[ و >%%spellout-numbering-m>];",
           "2000000000": "<%%spellout-numbering-m< مليار[ و >%%spellout-numbering-m>];",
-          "1000000000000": "بليون[ و >%%spellout-numbering-m>];",
-          "2000000000000": "<%%spellout-numbering-m< بليون[ و >%%spellout-numbering-m>];",
-          "1000000000000000": "بليار[ و >%%spellout-numbering-m>];",
-          "2000000000000000": "<%%spellout-numbering-m< بليار[ و >%%spellout-numbering-m>];",
+          "1000000000000": "ترليون[ و >%%spellout-numbering-m>];",
+          "2000000000000": "<%%spellout-numbering-m< ترليون[ و >%%spellout-numbering-m>];",
+          "1000000000000000": "كوادرليون[ و >%%spellout-numbering-m>];",
+          "2000000000000000": "<%%spellout-numbering-m< كوادرليون[ و >%%spellout-numbering-m>];",
           "1000000000000000000": "=#,##0=;"
         },
         "%spellout-cardinal-masculine": {
@@ -179,10 +179,10 @@
           "2000000": "<%%spellout-numbering-m< مليون[ و >%%spellout-numbering-m>];",
           "1000000000": "مليار[ و >%%spellout-numbering-m>];",
           "2000000000": "<%%spellout-numbering-m< مليار[ و >%%spellout-numbering-m>];",
-          "1000000000000": "بليون[ و >%%spellout-numbering-m>];",
-          "2000000000000": "<%%spellout-numbering-m< بليون[ و >%%spellout-numbering-m>];",
-          "1000000000000000": "بليار[ و >%%spellout-numbering-m>];",
-          "2000000000000000": "<%%spellout-numbering-m< بليار[ و >%%spellout-numbering-m>];",
+          "1000000000000": "ترليون[ و >%%spellout-numbering-m>];",
+          "2000000000000": "<%%spellout-numbering-m< ترليون[ و >%%spellout-numbering-m>];",
+          "1000000000000000": "كوادرليون[ و >%%spellout-numbering-m>];",
+          "2000000000000000": "<%%spellout-numbering-m< كوادرليون[ و >%%spellout-numbering-m>];",
           "1000000000000000000": "=#,##0=;"
         },
         "%%ordinal-ones-feminine": {
@@ -234,10 +234,10 @@
           "2000000": "<%spellout-cardinal-feminine< الألف[ و >%spellout-cardinal-feminine>];",
           "1000000000": "المليار[ و >%spellout-cardinal-feminine>];",
           "2000000000": "<%spellout-cardinal-feminine< مليار[ و >%spellout-cardinal-feminine>];",
-          "1000000000000": "بليون[ و >%spellout-cardinal-feminine>];",
-          "2000000000000": "<%spellout-cardinal-feminine< بليون[ و >%spellout-cardinal-feminine>];",
-          "1000000000000000": "بليار[ و >%spellout-cardinal-feminine>];",
-          "2000000000000000": "<%spellout-cardinal-feminine< بليار[ و >%spellout-cardinal-feminine>];",
+          "1000000000000": "ترليون[ و >%spellout-cardinal-feminine>];",
+          "2000000000000": "<%spellout-cardinal-feminine< ترليون[ و >%spellout-cardinal-feminine>];",
+          "1000000000000000": "كوادرليون[ و >%spellout-cardinal-feminine>];",
+          "2000000000000000": "<%spellout-cardinal-feminine< كوادرليون[ و >%spellout-cardinal-feminine>];",
           "1000000000000000000": "=#,##0=;"
         },
         "%%ordinal-ones-masculine": {
@@ -289,10 +289,10 @@
           "2000000": "<%%spellout-numbering-m< الألف[ و >%%spellout-numbering-m>];",
           "1000000000": "المليار[ و >%%spellout-numbering-m>];",
           "2000000000": "<%%spellout-numbering-m< مليار[ و >%%spellout-numbering-m>];",
-          "1000000000000": "بليون[ و >%%spellout-numbering-m>];",
-          "2000000000000": "<%%spellout-numbering-m< بليون[ و >%%spellout-numbering-m>];",
-          "1000000000000000": "بليار[ و >%%spellout-numbering-m>];",
-          "2000000000000000": "<%%spellout-numbering-m< بليار[ و >%%spellout-numbering-m>];",
+          "1000000000000": "ترليون[ و >%%spellout-numbering-m>];",
+          "2000000000000": "<%%spellout-numbering-m< ترليون[ و >%%spellout-numbering-m>];",
+          "1000000000000000": "كوادرليون[ و >%%spellout-numbering-m>];",
+          "2000000000000000": "<%%spellout-numbering-m< كوادرليون[ و >%%spellout-numbering-m>];",
           "1000000000000000000": "=#,##0=;"
         }
       }

@@ -2,8 +2,8 @@
   "rbnf": {
     "identity": {
       "version": {
-        "number": "$Revision: 12722 $",
-        "cldrVersion": "33"
+        "number": "$Revision: 14198 $",
+        "cldrVersion": "34"
       },
       "language": "hu"
     },
@@ -12,9 +12,7 @@
         "%spellout-numbering-year": {
           "-x": "mínusz >>;",
           "x.x": "=0.0=;",
-          "0": "=%spellout-numbering=;",
-          "1100/100": "<<­száz[­>>];",
-          "10000": "=%spellout-numbering=;"
+          "0": "=%spellout-numbering=;"
         },
         "%spellout-numbering": {
           "0": "=%spellout-cardinal=;"
@@ -45,12 +43,12 @@
           "90": "kilencven[­>>];",
           "100": "száz[­>>];",
           "200": "<%%spellout-cardinal-initial<­száz[­>>];",
-          "1000": "ezer[ >>];",
-          "2000": "<%%spellout-cardinal-initial<­ezer[ >>];",
-          "1000000": "<%%spellout-cardinal-initial< millió[ >>];",
-          "1000000000": "<%%spellout-cardinal-initial< milliárd[ >>];",
-          "1000000000000": "<%%spellout-cardinal-initial< billió[ >>];",
-          "1000000000000000": "<%%spellout-cardinal-initial< billiárd[ >>];",
+          "1000": "ezer[­>>];",
+          "2000": "<%%spellout-cardinal-initial<­ezer[­>>];",
+          "1000000": "<%%spellout-cardinal-initial<­millió[­>>];",
+          "1000000000": "<%%spellout-cardinal-initial<­milliárd[­>>];",
+          "1000000000000": "<%%spellout-cardinal-initial<­billió[­>>];",
+          "1000000000000000": "<%%spellout-cardinal-initial<­billiárd[­>>];",
           "1000000000000000000": "=#,##0=;"
         },
         "%spellout-cardinal-verbose": {
@@ -58,11 +56,11 @@
           "x.x": "<< egész >>;",
           "0": "=%spellout-cardinal=;",
           "100": "<<­száz[­>>];",
-          "1000": "<<­ezer[ >>];",
-          "1000000": "<< millió[ >>];",
-          "1000000000": "<< milliárd[ >>];",
-          "1000000000000": "<< billió[ >>];",
-          "1000000000000000": "<< billiárd[ >>];",
+          "1000": "<<­ezer[­>>];",
+          "1000000": "<<­millió[­>>];",
+          "1000000000": "<<­milliárd[­>>];",
+          "1000000000000": "<<­billió[­>>];",
+          "1000000000000000": "<<­billiárd[­>>];",
           "1000000000000000000": "=#,##0=;"
         },
         "%%spellout-cardinal-initial": {
@@ -111,14 +109,16 @@
           "100": "száz>%%spellout-ordinal-adik>;",
           "200": "<%%spellout-cardinal-initial<száz>%%spellout-ordinal-adik>;",
           "1000": "ezr>>;",
-          "2000": "<%%spellout-cardinal-initial<ezr>>;",
-          "1000000": "<%%spellout-cardinal-initial< milliom>%%spellout-ordinal-odik>;",
+          "1001": "ezer­>>;",
+          "2000": "<%%spellout-cardinal-initial<­ezr>>;",
+          "2001": "<%%spellout-cardinal-initial<­ezer­>>;",
+          "1000000": "<%%spellout-cardinal-initial<­milliom­>%%spellout-ordinal-odik>;",
           "1000000000": "=#,##0=.;"
         },
         "%spellout-ordinal-verbose": {
           "-x": "mínusz >>;",
           "x.x": "=#,##0.#=;",
-          "0": "nulla;",
+          "0": "nulladik;",
           "1": "első;",
           "2": "második;",
           "3": "=%%spellout-ordinal-verbose-larger=;"
@@ -134,8 +134,9 @@
         "%%spellout-ordinal-verbose-larger": {
           "0": "=%%spellout-ordinal-larger=;",
           "100": "<%spellout-cardinal-verbose<száz>%%spellout-ordinal-verbose-adik>;",
-          "1000": "<%spellout-cardinal-verbose<ezr>>;",
-          "1000000": "<%spellout-cardinal-verbose< milliom>%%spellout-ordinal-verbose-odik>;",
+          "1000": "<%spellout-cardinal-verbose<­ezr>>;",
+          "1001": "<%spellout-cardinal-verbose<­ezer­>>;",
+          "1000000": "<%spellout-cardinal-verbose<­milliom­>%%spellout-ordinal-verbose-odik>;",
           "1000000000": "=#,##0=.;"
         }
       }
