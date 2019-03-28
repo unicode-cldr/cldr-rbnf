@@ -2,8 +2,8 @@
   "rbnf": {
     "identity": {
       "version": {
-        "number": "$Revision: 12722 $",
-        "cldrVersion": "34"
+        "number": "$Revision: 14872 $",
+        "cldrVersion": "35"
       },
       "language": "ja"
     },
@@ -15,6 +15,12 @@
         }
       },
       "SpelloutRules": {
+        "%spellout-numbering-year-latn": {
+          "x.x": "=0.0=;",
+          "0": "=0=;",
+          "1": "元;",
+          "2": "=0=;"
+        },
         "%spellout-numbering-year": {
           "x.x": "=0.0=;",
           "0": "=%spellout-numbering=;",

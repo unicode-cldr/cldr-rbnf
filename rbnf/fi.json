@@ -2,8 +2,8 @@
   "rbnf": {
     "identity": {
       "version": {
-        "number": "$Revision: 12722 $",
-        "cldrVersion": "34"
+        "number": "$Revision: 14551 $",
+        "cldrVersion": "35"
       },
       "language": "fi"
     },
@@ -613,7 +613,7 @@
         "%spellout-ordinal": {
           "-x": "miinus >>;",
           "x.x": "=#,##0.#=;",
-          "0": "nolla;",
+          "0": "nollas;",
           "1": "ensimmäinen;",
           "2": "toinen;",
           "3": "kolmas;",
@@ -648,7 +648,7 @@
         "%spellout-ordinal-genitive": {
           "-x": "miinus >>;",
           "x.x": "=#,##0.#=;",
-          "0": "nollan;",
+          "0": "nollannen;",
           "1": "ensimmäisen;",
           "2": "toisen;",
           "3": "kolmannen;",
@@ -683,7 +683,7 @@
         "%spellout-ordinal-partitive": {
           "-x": "miinus >>;",
           "x.x": "=#,##0.#=;",
-          "0": "nollaa;",
+          "0": "nollatta;",
           "1": "ensimmäistä;",
           "2": "toista;",
           "3": "kolmatta;",
@@ -718,7 +718,7 @@
         "%spellout-ordinal-essive": {
           "-x": "miinus >>;",
           "x.x": "=#,##0.#=;",
-          "0": "nollana;",
+          "0": "nollantena;",
           "1": "ensimmäisenä;",
           "2": "toisena;",
           "3": "kolmantena;",

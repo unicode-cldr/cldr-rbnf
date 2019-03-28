@@ -2,8 +2,8 @@
   "rbnf": {
     "identity": {
       "version": {
-        "number": "$Revision: 13140 $",
-        "cldrVersion": "34"
+        "number": "$Revision: 14924 $",
+        "cldrVersion": "35"
       },
       "language": "ms"
     },
@@ -11,7 +11,9 @@
       "OrdinalRules": {
         "%digits-ordinal": {
           "-x": "−ke->#,##0>;",
-          "0": "ke-=#,##0=;"
+          "0": "ke-=#,##0=;",
+          "1": "No. 1;",
+          "2": "ke-=#,##0=;"
         }
       },
       "SpelloutRules": {
@@ -24,7 +26,7 @@
         },
         "%spellout-cardinal": {
           "-x": "negatif >>;",
-          "x.x": "<< titik >>;",
+          "x.x": "<< perpuluhan >>;",
           "0": "kosong;",
           "1": "satu;",
           "2": "dua;",
@@ -43,10 +45,11 @@
           "200": "<< ratus[ >>];",
           "1000": "seribu[ >>];",
           "2000": "<< ribu[ >>];",
-          "1000000": "<< juta[ >>];",
-          "1000000000": "<< milyar[ >>];",
-          "1000000000000": "<< bilyun[ >>];",
-          "1000000000000000": "<< bilyar[ >>];",
+          "1000000": "sejuta[ >>];",
+          "2000000": "<< juta[ >>];",
+          "1000000000": "<< bilion[ >>];",
+          "1000000000000": "<< trilion[ >>];",
+          "1000000000000000": "<< kuadrilion[ >>];",
           "1000000000000000000": "=#,##0=;"
         },
         "%spellout-ordinal": {

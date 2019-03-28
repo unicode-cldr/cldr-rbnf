@@ -2,12 +2,18 @@
   "rbnf": {
     "identity": {
       "version": {
-        "number": "$Revision: 12722 $",
-        "cldrVersion": "34"
+        "number": "$Revision: 14624 $",
+        "cldrVersion": "35"
       },
       "language": "yue"
     },
     "rbnf": {
+      "OrdinalRules": {
+        "%digits-ordinal": {
+          "-x": "第−>#,##0>;",
+          "0": "第=#,##0=;"
+        }
+      },
       "SpelloutRules": {
         "%spellout-numbering-year": {
           "x.x": "=0.0=;",
