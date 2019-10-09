@@ -2,8 +2,7 @@
   "rbnf": {
     "identity": {
       "version": {
-        "number": "$Revision: 13062 $",
-        "cldrVersion": "35.1"
+        "cldrVersion": "36"
       },
       "language": "uk"
     },

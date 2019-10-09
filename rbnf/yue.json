@@ -2,8 +2,7 @@
   "rbnf": {
     "identity": {
       "version": {
-        "number": "$Revision: 14624 $",
-        "cldrVersion": "35.1"
+        "cldrVersion": "36"
       },
       "language": "yue"
     },
@@ -181,23 +180,7 @@
           "2": "兩;"
         },
         "%spellout-cardinal-alternate2": {
-          "3": "三;",
-          "4": "四;",
-          "5": "五;",
-          "6": "六;",
-          "7": "七;",
-          "8": "八;",
-          "9": "九;",
-          "10": "<%%cardinal-twenties<十[>%spellout-numbering>];",
-          "21": "廿[>%spellout-numbering>];",
-          "30": "<%spellout-numbering<十[>>];",
-          "100": "<%spellout-numbering<百[>%%number2>];",
-          "1000": "<%spellout-numbering<千[>%%number3>];",
-          "10000": "<%spellout-numbering<萬[>%%number4>];",
-          "100000000": "<%spellout-numbering<億[>%%number5>];",
-          "1000000000000": "<%spellout-numbering<兆[>%%number8>];",
-          "10000000000000000": "<%spellout-numbering<京[>%%number13>];",
-          "1000000000000000000": "=#,##0=;"
+          "3": "=%spellout-cardinal=;"
         },
         "%%cardinal-twenties": {
           "1": ";",

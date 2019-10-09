@@ -2,8 +2,7 @@
   "rbnf": {
     "identity": {
       "version": {
-        "number": "$Revision: 12722 $",
-        "cldrVersion": "35.1"
+        "cldrVersion": "36"
       },
       "language": "da"
     },
@@ -17,7 +16,7 @@
           "10000": "=%spellout-numbering=;"
         },
         "%spellout-numbering": {
-          "0": "=%spellout-cardinal-common=;"
+          "0": "=%spellout-cardinal-neuter=;"
         },
         "%spellout-cardinal-common": {
           "-x": "minus >>;",
