@@ -2,7 +2,7 @@
   "rbnf": {
     "identity": {
       "version": {
-        "cldrVersion": "36"
+        "cldrVersion": "37"
       },
       "language": "nn"
     },
@@ -59,19 +59,19 @@
           "40": "førti[­>>];",
           "50": "femti[­>>];",
           "60": "seksti[­>>];",
-          "70": "søtti[­>>];",
+          "70": "sytti[­>>];",
           "80": "åtti[­>>];",
           "90": "nitti[­>>];",
           "100": "<%spellout-cardinal-neuter< hundre[ og >>];",
           "1000": "<%spellout-cardinal-neuter< tusen[ og >>];",
-          "1000000": "éin miljon[ >>];",
-          "2000000": "<< miljoner[ >>];",
-          "1000000000": "éin miljard[ >>];",
-          "2000000000": "<< miljarder[ >>];",
-          "1000000000000": "éin biljon[ >>];",
-          "2000000000000": "<< biljoner[ >>];",
-          "1000000000000000": "éin biljard[ >>];",
-          "2000000000000000": "<< biljarder[ >>];",
+          "1000000": "éin million[ >>];",
+          "2000000": "<< millionar[ >>];",
+          "1000000000": "éin milliard[ >>];",
+          "2000000000": "<< milliardar[ >>];",
+          "1000000000000": "éin billion[ >>];",
+          "2000000000000": "<< billionar[ >>];",
+          "1000000000000000": "éin billiard[ >>];",
+          "2000000000000000": "<< biliardar[ >>];",
           "1000000000000000000": "=#,##0=;"
         }
       }
